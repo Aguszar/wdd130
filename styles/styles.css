@@ -18,11 +18,13 @@ nav a:hover{
 main{
     max-width: 74%;
     float: left;
-    margin-left: 1%;
+    margin: 0;
+    padding: 0.5% ;
+    background-color: rgb(105, 194, 105);
 }   
 
 main h1{
-    color: steelblue;
+    color: blue;
     margin-bottom: 15px;
 }
 
@@ -39,13 +41,17 @@ p{
 }
 
 aside{
-    width: 25%;
+    width: 23%;
+    margin: 0;
+    padding: 1%;
+    background-color: khaki;
     float: right;
 }
 
 aside img{
-    width: 50%;
-    margin-left: 25%;
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
 
 }
 
@@ -54,6 +60,7 @@ footer{
     float: left;
     border-top: 1px solid black;
     padding-top: 5px;
+    margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
 }
