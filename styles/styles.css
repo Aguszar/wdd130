@@ -1,19 +1,32 @@
+*{
+    margin: 0;
+}
 nav{
     background-color: steelblue;
     padding: 10px;
 }
-
 nav a{
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: black;
+    background-color: blue;
+}
+main{
+    max-width: 74%;
+    float: left;
+    margin-left: 1%;
 }
 
-h1{
+main h1{
     color: steelblue;
+    margin-bottom: 15px;
 }
 
-img{
+main img{
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -21,6 +34,24 @@ img{
     box-shadow: 0 0 30px gray;
 }
 
-p{
+main p{
     padding: 10px;
 }
+
+aside{
+    width: 25%;
+    float: right;
+}
+
+aside img{
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+footer{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
