@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalam:wght@300;400;700&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --primary-color: #7ec7bb;
+    --secondary-color: #473C12;
+    --accent1-color:  #3D9615;
+    --accent2-color:  #BDBBB0;
+            
+    --heading-font: "Poetsen One", serif;
+    --paragraph-font: "kalam", serif;
+
+    --nav-background-color: #76b9ae;
+    --nav-link-color: #947d29;
+    --nav-hover-link-color: #86701e;
+    --nav-hover-background-color: #7ccfc1;
+    
+}
+
+body{
+    font-family: var(--paragraph-font);
+    font-weight: 400;
+    max-width: 960px;
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p{
+    padding: 25px ;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
