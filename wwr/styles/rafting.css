@@ -24,6 +24,43 @@ body{
     background-color: var(--primary-color);
 }
 
+
+header{
+    padding: 20px;
+    background-color: var(--accent1-color);
+    align-items: center;
+
+}
+
+header img{
+    height: 62px;
+    float: left;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+    width: 25%;
+    text-align: center;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
 h1, h2, h3, h4, h5, h6{
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -36,4 +73,57 @@ p{
 }
 
 a{ text-decoration: none;}
+
+section{
+    width: 100%;
+}
+
+.pictures{
+    width: 100%;
+    padding: 25px;
+}
+
+.pictures img{
+    height: 250px;
+    padding: 25px;
+}
+
+footer img{
+    height: 40px;
+    border-radius: 20%;
+}
+footer img:hover{
+    border-radius: 50%;
+}
+/* CLASSES */
+.hero{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.35;
+}
+
+.hero article img{
+    padding: 50px 35px 25px 25px;
+    float: right;
+    width: 150px;
+    opacity: 1;
+}
+
+.hero article{
+    position: absolute;
+    top: 80px;
+}
+
+.hero h1{
+    position: absolute;
+    top: 20px;
+    left:10px;
+}
 
