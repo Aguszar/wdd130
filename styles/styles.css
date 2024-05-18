@@ -10,7 +10,7 @@ header, footer, .grid{
     justify-content: center;
     align-content: center;
     max-width: 840px;
-    
+    margin: 0 auto;    
 }
 header, nav{
     background-color: steelblue;
