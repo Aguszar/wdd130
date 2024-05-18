@@ -46,6 +46,7 @@ main{
 main h1{
     color: blue;
     margin-bottom: 15px;
+    border-bottom: 2px solid blue;
 }
 
 main img{
