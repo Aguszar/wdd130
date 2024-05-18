@@ -5,9 +5,21 @@
     text-decoration: none;
     list-style:none  ;
 }
-nav{
+header, footer, .grid{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    max-width: 840px;
+    
+}
+header, nav{
     background-color: steelblue;
+}
+nav{
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
 }
 nav a{
     color: white;
@@ -15,16 +27,20 @@ nav a{
     padding: 20px;
     text-decoration: none;
 }
-nav a:hover{
+nav 
+a:hover{
     color: black;
     background-color: blue;
 }
+
+.grid{
+    display: grid;
+}
+
 main{
-    max-width: 74%;
-    float: left;
-    margin: 0;
-    padding: 0.5% ;
+    grid-column: 2/3;
     background-color: rgb(105, 194, 105);
+    padding: 1rem;
 }   
 
 main h1{
@@ -47,9 +63,8 @@ p{
 }
 
 aside{
-    width: 20%;
-    float: right;
-    
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 aside h2{
     position: absolute;
@@ -68,8 +83,6 @@ aside img{
 }
 
 footer{
-    width: 100%;
-    float: left;
     border-top: 1px solid black;
     padding-top: 5px;
     margin-top: 5px;
