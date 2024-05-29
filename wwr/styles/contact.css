@@ -2,3 +2,38 @@ iframe{
     height: 300px;
     border: 0;
 }
+
+form{
+    display: grid;
+    grid-template-columns: 1;
+    max-width: 500px;
+    background-color: rgb(80, 125, 156);
+    padding: 10px;
+}
+
+label{
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 1;
+    width: 80%;
+} 
+
+.one-line{
+    display: flex;
+    justify-self:center;
+}
+
+form button{
+    background-color: rgb(53, 53, 242);
+    padding: 5px;
+    color: white;
+    border: 0;
+}
+
+form button:hover{
+    background-color: rgb(36, 36, 236);
+}
+
+form button:hover,select:hover{
+    cursor: pointer;
+}
