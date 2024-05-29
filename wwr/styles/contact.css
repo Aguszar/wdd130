@@ -1,7 +1,4 @@
-img{
-    height: 200px;
-}
-
 iframe{
     height: 300px;
+    border: 0;
 }
