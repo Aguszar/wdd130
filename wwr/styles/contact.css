@@ -6,9 +6,9 @@ iframe{
 form{
     display: grid;
     grid-template-columns: 1;
-    max-width: 500px;
+    width: 100%;
     background-color: rgb(80, 125, 156);
-    padding: 10px;
+    padding: 10px 0 10px 0;
 }
 
 label{
@@ -24,10 +24,14 @@ label{
 }
 
 form button{
+    width: 80%;
+    display: flex;
+    justify-self:center;
     background-color: rgb(53, 53, 242);
-    padding: 5px;
-    color: white;
+    padding: 10px;
     border: 0;
+    color: white;
+    box-sizing: content-box;
 }
 
 form button:hover{
