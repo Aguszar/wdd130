@@ -12,3 +12,26 @@
 .trips img{
     width: 30%;
 }
+
+
+td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.trips a{
+    display: block;
+    background-color:  var(--accent1-color);
+    color: white;
+    text-decoration: none;
+    padding: 40px, 0 40px, 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+.trips a:hover{
+    background-color: var(--secondary-color);
+}
