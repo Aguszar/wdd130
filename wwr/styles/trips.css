@@ -1,0 +1,14 @@
+.trips{
+    display: flex;
+    grid-template-rows: 2;
+    width: 100%;
+    margin-top: 20px ;
+}
+
+.trips h3{
+    width: fit-content;
+}
+
+.trips img{
+    width: 30%;
+}
